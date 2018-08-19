@@ -99,7 +99,7 @@ sorted_confidence = sorted(rule_confidence.items(), key=itemgetter(1), reverse=T
 
 # create a map to movie name
 
-movie_name_data = pd.read_csv('ml-100k/u.item', delimiter="|", header=None, encoding = "mac-roman")
+movie_name_data = pd.read_csv('data/u.item', delimiter="|", header=None, encoding = "mac-roman")
 movie_name_data.columns = ["MovieID", "Title", "Release Date", "Video Release", "IMDB", "<UNK>", "Action", "Adventure",
                            "Animation", "Children's", "Comedy", "Crime", "Documentary", "Drama", "Fantasy", "Film-Noir",
                            "Horror", "Musical", "Mystery", "Romance", "Sci-Fi", "Thriller", "War", "Western"]
