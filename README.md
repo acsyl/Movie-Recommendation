@@ -1,9 +1,10 @@
 # Movie-Recommendation
-rule-based method 
+Rule-based method 
 
 ## Stage 1
 - Found frequent itemsets in the data
-- Implemented Apriori algorithm
+- Implemented apriori algorithm
 
 ## Stage 2
-- Created Association rules 
+- Created association rules
+- Recommended movies
